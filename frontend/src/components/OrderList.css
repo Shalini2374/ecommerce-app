@@ -1,0 +1,32 @@
+/* OrderList.css */
+.order-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .order-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .order-item p {
+    font-size: 16px;
+  }
+  
+  .order-item ul {
+    margin-top: 10px;
+  }
+  
+  .order-item li {
+    margin: 5px 0;
+  }
+  

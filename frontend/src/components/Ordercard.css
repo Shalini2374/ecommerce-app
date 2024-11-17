@@ -1,0 +1,22 @@
+/* OrderCard.css */
+.order-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .order-card h3 {
+    margin-top: 0;
+  }
+  
+  .order-products ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-products li {
+    margin-bottom: 5px;
+  }
+  

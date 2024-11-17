@@ -1,0 +1,88 @@
+/* Global styles for the app */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #1e90ff;
+  color: white;
+  padding: 20px;
+}
+
+.HomePage main {
+  padding: 20px;
+}
+
+/* Login Page Styles */
+.LoginPage {
+  padding: 20px;
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.LoginPage h2 {
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0077cc;
+}
+
+/* Navbar Styling */
+nav {
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+nav li {
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+nav li:hover {
+  color: #1e90ff;
+}
